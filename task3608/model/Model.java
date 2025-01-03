@@ -4,4 +4,7 @@ public interface Model {
     ModelData getModelData();
     void loadUsers();
     void loadDeletedUsers();
+    void loadUserById(long userId);
+    void deleteUserById(long ig);
+    void changeUserData(String name, long id, int level);
 }
